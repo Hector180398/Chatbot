@@ -41,19 +41,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-</head>
-<body>
-    <h1>Hola Mundo!</h1>
-    <p>Este es un ejemplo de página web creado en GitHub Pages.</p>
-
-    <!-- Agrega el iframe del chatbot de Dialogflow -->
-    <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/e2156940-b6a2-48b0-9ebf-00b412e1158d"></iframe>
-</body>
-</html>
